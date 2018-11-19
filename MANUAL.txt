@@ -1,0 +1,26 @@
+		UTILIZAÇÃO DO CÓDIGO EM ARDUINO
+			PASSO-A-PASSO
+
+O arduíno receberá, através de dois switches que conectam o terra
+aos terminais 10 e 11 do arduíno respectivamente (vide MONTAGEM),
+dois números de zero a nove.
+
+ASSIM QUE FOR LIGADO, O ARDUÍNO MOSTRARÁ DOIS TRAÇOS [-|-] através 
+dos displays, e isso indica que está pronto para receber os números.
+Neste estado, cada número já possui o valor ZERO.
+
+A partir de então, cada switch controla separadamente o valor de um
+dos números. CADA CLIQUE EM UM SWITCH INCREMENTA O VALOR DE SEU RESPECTIVO
+NÚMERO EM UMA UNIDADE , e o novo valor do número será mostrado em apenas um 
+dos displays.
+
+Ao ter entrado os valores desejados, PRESSIONAR AMBOS OS BOTÕES SIMULTÂNEAMENTE
+MOSTRARÁ NOS DISPLAYS O VALOR DO PRODUTO entre os dois números continuamente.
+
+neste estado,PRESSIONAR QUALQUER DOS DOIS BOTÕES RETORNARÁ O ARDUÍNO AO ESTÁGIO
+INICIAL, pronto para uma nova e distinta leitura de dois números. 
+
+
+
+ 
+  
