@@ -1,2 +1,0 @@
-# Nautica
-Em desenvolvimento
