@@ -1,26 +1,31 @@
-		UTILIZA«√O DO C”DIGO EM ARDUINO
+		UTILIZA√á√ÉO DO C√ìDIGO EM ARDUINO
 			PASSO-A-PASSO
 
-O arduÌno receber·, atravÈs de dois switches que conectam o terra
-aos terminais 10 e 11 do arduÌno respectivamente (vide MONTAGEM),
-dois n˙meros de zero a nove.
+O ardu√≠no receber√°, atrav√©s de dois switches que conectam o terra
+aos pinos 10 e 11 do ardu√≠no respectivamente (vide MONTAGEM),
+dois n√∫meros de zero a nove.
 
-ASSIM QUE FOR LIGADO, O ARDUÕNO MOSTRAR¡ DOIS TRA«OS [-|-] atravÈs 
-dos displays, e isso indica que est· pronto para receber os n˙meros.
-Neste estado, cada n˙mero j· possui o valor ZERO.
+ASSIM QUE FOR LIGADO, O ARDU√çNO MOSTRAR√Å DOIS TRA√áOS [-|-] atrav√©s 
+dos displays, e isso indica que est√° pronto para receber os n√∫meros.
+Neste estado, cada n√∫mero j√° possui o valor ZERO.
 
-A partir de ent„o, cada switch controla separadamente o valor de um
-dos n˙meros. CADA CLIQUE EM UM SWITCH INCREMENTA O VALOR DE SEU RESPECTIVO
-N⁄MERO EM UMA UNIDADE , e o novo valor do n˙mero ser· mostrado em apenas um 
+A partir de ent√£o, cada switch controla separadamente o valor de um
+dos n√∫meros. CADA CLIQUE EM UM SWITCH INCREMENTA O VALOR DE SEU RESPECTIVO
+N√öMERO EM UMA UNIDADE, e o novo valor do n√∫mero ser√° mostrado em apenas um 
 dos displays.
 
-Ao ter entrado os valores desejados, PRESSIONAR AMBOS OS BOT’ES SIMULT¬NEAMENTE
-MOSTRAR¡ NOS DISPLAYS O VALOR DO PRODUTO entre os dois n˙meros continuamente.
+Ao ter entrado os valores desejados, PRESSIONAR AMBOS OS BOT√ïES *SIMULT√Ç-
+NEAMENTE POR PELO MENOS 0,3 SEGUNDO MOSTRAR√Å NOS DISPLAYS O VALOR DO 
+PRODUTO entre os dois n√∫meros. 
 
-neste estado,PRESSIONAR QUALQUER DOS DOIS BOT’ES RETORNAR¡ O ARDUÕNO AO EST¡GIO
-INICIAL, pronto para uma nova e distinta leitura de dois n˙meros. 
+neste estado, PRESSIONAR QUALQUER DOS DOIS BOT√ïES RETORNAR√Å O ARDU√çNO AO EST√ÅGIO
+INICIAL, pronto para uma nova leitura de dois n√∫meros. 
+--------------------------------------------------------------------------------
 
+* O tempo m√≠nimo entre dois cliques consecutivos e tamb√©m m√°ximo entre dois
+simult√¢neos pode ser ajustado atrav√©s do valor da macro TEMPO_CLICK (linha 18)
 
-
- 
-  
+** Note que o c√≥digo pode tanto ser utilizado com displays catodo comum quanto 
+anodo comum. A unica diferen√ßa ser√°: o pino 12 deve permanecer conectado ao
+terra caso o tipo de display escolhido seja anodo comum.
+Para catodo comum, deixe o pino 12 desconectado.
